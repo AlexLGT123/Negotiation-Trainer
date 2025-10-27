@@ -1,0 +1,7 @@
+{
+  "name": "Intelligent Negotiation Trainer",
+  "description": "An intelligent, interactive negotiation trainer app that simulates real-life B2B commercial negotiation scenarios. The app allows users to practice decision-making, persuasion, and deal-making strategies through realistic simulations and AI-driven feedback.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
