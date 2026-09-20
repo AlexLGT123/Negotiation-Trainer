@@ -1,20 +1,25 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+Negotiation Trainer
 
-# Run and deploy your AI Studio app
+Negotiation practice for in-house procurement teams — live sparring against an AI counterpart that holds its position.
 
-This contains everything you need to run your app locally.
+Why
 
-View your app in AI Studio: https://ai.studio/apps/drive/1fdbl3ofXa15Lu-HdnHmP4Gq3_kdKyJqR
+Procurement negotiation training is mostly frameworks and role-play with a colleague who is quietly rooting for you. Neither prepares you for a vendor account manager who has run this conversation four hundred times and knows which concession you'll reach for first.
 
-## Run Locally
+This is a sparring partner instead. You set the scenario, then negotiate against a counterpart that defends its margin and applies the tactics real sellers apply.
 
-**Prerequisites:**  Node.js
+What it does
+Scenario setup — contract type and value, renewal or new, your leverage, the counterpart's incentives
+Live negotiation — turn by turn; the counterpart stays in role and does not fold to be agreeable
+Tactic recognition — names the moves being used on you as they happen: anchoring, deadline pressure, bundling, the good-cop handoff
+Debrief — what you conceded, when, and what to try differently
+Stack
+React 19 · TypeScript · Vite
+Google Gemini (@google/genai)
+Running locally
 
+Prerequisites: Node.js 20+
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+Background
+
+Built from ten years of running procurement negotiations, most recently a SaaS and services portfolio at a French professional sports organisation. The tactics the counterpart uses are the ones that were used on me.
